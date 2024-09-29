@@ -1,1 +1,133 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.parent{
+    display: flex;
+}
+.im img{
+    margin: 0%;
+    width:100px;
+    height:80px;
+}
+.parent .kd{
+  display: flex;
+  padding: 35px;
+}
+.kd .l1{
+    /* padding:5px; */
+    margin-left:90px;
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-size: larger;
+}
+.parent #ds {
+    margin-left:55px;
+    margin-top:30px;
+}
+#ds {
+    width: 40px;
+    height: 30px;
+}
+.parent #sd {
+    margin-left:1px;
+    margin-top:30px;
+}
+#sd {
+    width: 40px;
+    height: 30px;
+}
+.child img{
+    width:100%;
+    height: 600px;
+}
+.child1 ,p{
+    display: flex;
+    background-color: grey;
+    margin-top: -5px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.child2{
+    width:100%;
+    height:700px;
+    background-color:lightgrey;
+}
+.child2 #p{
+    margin-left:50px;
+    padding-top:50px;
+    
+}
+.child2 img{
+   width: 350px;
+    height:300px;
+}
+.child2 #js{
+     margin-top: 30px;
+     margin-left:50px;
+}
+.child2 #jss{
+    margin-top: 30px;
+    margin-left:95px;
+}
+.child2 #jsss{
+    margin-top: 30px;
+    margin-left:100px;
+}
+.child2 .dd{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.dd #d1{
+    margin-left:50px;
+    margin-top:30px;
+}
+.dd #d2{
+    margin-right:50px;
+    margin-top:30px;
+}
+.dd #d3{
+    margin-right:50px;
+    margin-top:30px;
+}
+.child3 ,a{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.child3 #k1{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.child3 #k2{
+    margin-left:100px;
+    margin-top: 30px;
+}
+.child3 #k3{
+    margin-right:10px;
+    margin-top: 30px;
+    margin-left:100px ;
+}
+.child4 button{
+    width:120px;
+    height:40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.child4 .bt1{
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+ .child4 .bt2{
+    margin-left:600px;
+    margin-top: -35px;
+}
+ .child4 .bt3{
+    margin-left:1200px;
+    margin-top: -35px;
+}  
 
