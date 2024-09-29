@@ -1,1 +1,170 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.f-nav .left{
+    display: flex;
+}
+.left img{
+    width: 20%;
+}
+.left #sg{
+    padding-top:53px;
+    margin-left:20px ;
+}
+.left input{
+    margin: 45px;
+    margin-inline: 11px;
+    width:600px;
+    height: 25px;
+}
+.f-nav .right{
+    display: flex;
+}
+.right select{
+    margin: 50px;
+    margin-inline: 22px;
+}
+.right button{
+    margin:50px;
+    width: 50px;
+    margin-inline: 22px;
+    color:white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.right #kd {
+    padding:50px;
+    margin-right: 1%;
+}
+.sec-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #dddcd9;
+    padding: 15px;
+}
+.sec-nav .s-left{
+    display: flex;
+}
+.sec-nav .s-right{
+    display: flex;
+}
+.s-left .l1:hover{
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-right .l2:hover{
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-left .l1{
+    margin-left: 30px;
+    padding: -5px;
+    margin: 15px;
+    
+}
+.s-right .l2{
+    margin: 15px;
+    padding:-5px;
+    margin-right: 50px; 
+}
+.main img{
+    width:100%;
+}
+.container h2{
+    margin:15px;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    
+}
+.card img{
+    width:17%;
+    margin: 18px;
+    border-radius:10px;
+    /* animation-duration: 1s; */
+    /* transition-duration: 1s; */
+}
+.text{
+    display: flex;
+}
+.text h2{
+  
+    font-variant: small-caps;
+}
+.text #h{
+    margin-left:30px;
+}
+.text #h1{
+    margin-left:95px;
+}
+.text #h2{
+    margin-left:95px;
+}
+.text #h3{
+    margin-left:135px;
+}
+.banner img{
+    width: 100%;
+}
+.containers h2{
+    margin-top:35px ;
+}
+.premiere{
+    /* display: flex; */
+    padding: 20px;
+    
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.txt #h{
+    margin-left:1px;
+    margin-top:-1px;
+    font-variant: small-caps;
+}
+.txt #h1{
+    margin-left:2%;
+    margin-top:-1px;
+    font-variant: small-caps;
+}
+.txt #h2{
+    margin-right:4%;
+    margin-top:-1px;
+    font-variant: small-caps;
+}
+.txt #h3{
+    margin-right:100px;
+    margin-top:-1px;
+    font-variant: small-caps;
+}
+.txt #h4{
+    margin-top: -1px;
+    margin-right:3%;
+    font-variant: small-caps;
+}
+.footer img{
+    width:13%;
+    margin-left:40%;
+    justify-content:space-around;
+    
+}
+.icon{
+    display: flex;
+    justify-content:space-around;
+    width:12% ;
+    margin-left:41%;
+}
 
