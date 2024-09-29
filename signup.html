@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        header{
+            color: white;
+            background-color: black;
+            border:5px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        form h1{
+            text-align: center;
+        }
+        form {
+            height: auto;
+            width: 400px;
+            border: 5px;
+            border-radius: 40px;
+            margin: 80px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-style:outset; 
+        }
+        input {
+            border: none;
+            border-bottom: 2px solid #000;
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        label{
+            text-align: left;
+        }
+        button {
+            border: none;
+            padding: 15px 40%;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            border-radius: 20px;    
+        }
+        form .gender-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .gender-section label, .gender-section input {
+            margin: 0;
+        }
+    
+    </style>
+</head>
+<header><h1>Sign up page</h1></header>
+   <div>
+    <form>
+        <h1><center>SignUp</center></h1><br>
+        <label for="FIRST NAME" >FIRST NAME:</label><br>
+        <input type="text"><br><br>
+        <label for="Last name">LAST NAME</label><br>
+        <input type="text"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email"><br><br>
+        <label for="date of birth">DATE OF BIRTH</label><br>
+        <input type="date"><br><br>
 
+        <div class="gender-section">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Others
+        </div>
+
+        <label type="phone">Phone Number</label><br>
+        <input type="tel"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password"><br><br>
+        <label for="conform password">Confirm Password:</label><br>
+        <input type="password"><br><br>
+        <button type="submit">Submit</button><br><br>
+        <label>Already have an account? <a href="login.html">Click here</a> for login</label>
+    </form>
+   </div>
+
+    <footer>
+        &copy; Copyright 2024
+    </footer>
+</body>
+</html>
