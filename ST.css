@@ -1,0 +1,40 @@
+/*body{
+    background-color: gray;
+}*/
+
+h1{
+    background-color: pink;
+}
+h3{
+    background-color: yellow;
+}
+pre{
+    text-align: center;
+    text-shadow:black;
+}
+h2{
+   
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    background-color: pink;
+    border-color: red;
+    border-radius:10px;
+    
+}
+.icon{
+   
+    justify-content: space-around;
+    width: 12%;
+    
+}
+img{
+    padding: 50px;
+    border-right: 100px;
+    width: 400px;
+}
+.s-left .l1:hover{
+    color :red;
+    cursor:pointer;
+    font-weight: 600;
+}
